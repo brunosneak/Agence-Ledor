@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background: #eee;
+    color: #333;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    background-color: #333;
+    padding: 1rem 2rem;
+    line-height: 1.8rem;
+}
+
+header nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+header nav h1{
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    font-family: "Long Cang", cursive;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+header nav h1 i{
+    color: #f1c40f;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li{
+    padding: 1rem;
+}
+
+header ul li a:hover {
+    color: #f1c40f;
+}
+

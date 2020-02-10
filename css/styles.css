@@ -155,8 +155,37 @@ header ul li a:hover {
 
 /* section team */
 
-.team{
+#team{
     display: flex;
     flex-flow: row nowrap;
     min-height: 600px;
+}
+
+.imgTeam{
+    flex: 1;
+    background: url("https://dyma-images.s3.fr-par.scw.cloud/html-css/projects/project2/team.jpg") center center/cover;
+}
+
+.textTeam{
+    background: #333;
+    color: #fff;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.textTeam h2{
+    margin-bottom: 2rem;
+}
+
+.textTeam h2 strong{
+    color: #f1c40f;
+    font-weight: 400;
+}
+
+.textTeam p{
+    font-size: 1.3rem;
+    line-height: 1.8rem;
 }

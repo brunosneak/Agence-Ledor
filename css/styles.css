@@ -240,3 +240,56 @@ header ul li a:hover {
 .testiElemProfil em{
     color: #555;
 }
+
+/* section contact */
+
+#contact{
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 1rem;
+}
+
+#contact .contactForm{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+}
+
+#contact h2{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+#contact strong{
+    color: #f1c40f;
+    font-weight: 400;
+}
+
+.contactForm input {
+    background: #333;
+    border: 0;
+    border-bottom: 1px solid #555;
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    outline: 0;
+    padding: 1rem;
+}
+
+.contactForm button{
+    background: #f1c40f;
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 3rem auto;
+    padding: 1rem 2rem;
+}

@@ -1,0 +1,88 @@
+/*  Requête média uniquement nécessaire sur l'éditeur en ligne : */
+
+@media (max-width: 500px) {
+    /* class */
+  
+    h2 {
+      text-align: center;
+    }
+  
+    /* header */
+  
+    header nav {
+      flex-direction: column;
+    }
+  
+    header nav ul {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    header nav ul li {
+      margin-top: 1.5rem;
+      padding: 0.5rem;
+      border-bottom: 1px dotted #ddd;
+    }
+  
+    .firstSection .contentFirstSection h2 {
+      padding-top: 1rem;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+    .firstSection .contentFirstSection p {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+  
+    /* offer */
+  
+    #offer {
+      padding: 5rem 1rem;
+      text-align: center;
+    }
+  
+    .listOffer {
+      flex-direction: column;
+    }
+  
+    /* team */
+  
+    #team {
+      flex-direction: column-reverse;
+    }
+  
+    .imgTeam {
+      min-height: 300px;
+    }
+  
+    .textTeam {
+      padding: 4rem 2rem;
+    }
+  
+    /* testimonials */
+  
+    .testiElem {
+      flex-direction: column;
+    }
+  
+    .testiElemReverse {
+      flex-direction: column-reverse;
+    }
+  
+    .testiElemProfil img {
+      display: block;
+      margin: 2rem auto;
+    }
+  
+    /* contact */
+  
+    #contact {
+      padding: 5rem 1rem 5rem 1rem;
+    }
+  
+    .contactForm button {
+      margin: 3rem auto 0 auto;
+    }
+  }
+  
